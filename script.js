@@ -5,7 +5,7 @@ var init = () => {
 			event.preventDefault();
 			document.getElementById("message").value = Array(10)
 				.fill(
-					"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+					"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,!"
 				)
 				.map(function (x) {
 					return x[Math.floor(Math.random() * x.length)];
